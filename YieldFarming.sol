@@ -1,7 +1,7 @@
 pragma solidity ^0.8.0;
 
 import "./StableCoin.sol";
-import "./CoderCoin.sol";
+import "./BoredCoderCoin.sol";
 
 contract YieldFarm{
     
