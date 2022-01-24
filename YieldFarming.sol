@@ -14,7 +14,7 @@ contract YieldFarm{
     //Datatype are smart contract type
     //we are grabbing the smart contract address of StableCoin and CoderCoin 
     StableCoin public stablecoin;
-    CoderCoin public codercoin;
+    BoredCoderCoin public codercoin;
 
     //mapping data structure to keep track of investor address => _amount of stablecoins
     mapping (address=>uint256) public stakedAmount;
